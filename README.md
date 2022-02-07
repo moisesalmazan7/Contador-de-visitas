@@ -42,6 +42,7 @@ nano /var/www/your_domain/index.html
 <p>This is the landing page of <strong>your_domain</strong>.</p>
 
 Una vez hecho esto, entraríamos al navegador con http://server_domain_or_IP y se verá una página como la siguiente:
+
 ![imagen](https://user-images.githubusercontent.com/63236552/152823944-a3c61a11-6f16-4821-b40e-3e36d0a13ffd.png)
 
 Para probar que tenemos php funcionando crearíamos un archivo en nano /var/www/your_domain/info.php con el siguiente código:
@@ -49,6 +50,7 @@ Para probar que tenemos php funcionando crearíamos un archivo en nano /var/www/
 phpinfo();
 
 Accediendo a nuestro navegador con http://server_domain_or_IP/info.php debería aparecer lo siguiente:
+
 ![imagen](https://user-images.githubusercontent.com/63236552/152824373-52d3ecdf-4efd-473d-8241-eadada513a93.png)
 
 Por último, probaremos el procesamiento de PHP en nuestro servidor web:
@@ -99,6 +101,7 @@ try {
 }
 
 Si accedemos a la siguiente dirección: http://your_domain/todo_list.php, veríamos lo siguiente:
+
 ![imagen](https://user-images.githubusercontent.com/63236552/152825487-f1d0998c-18b0-4b47-acf9-9ac4b8824986.png)
 
 
@@ -240,9 +243,12 @@ Le ponemos el siguiente código: Volvemos a sustituir EXAMPLE_PASSWORD por nuest
 </html>
 
 Para probar el contador de visitas de Redis accederíamos a http://your-server-IP/test.php y nos saldría lo siguiente:
+
 ![imagen](https://user-images.githubusercontent.com/63236552/152826930-4ae08160-b6fb-4f29-8d44-853f5448e1fc.png)
 
+
 Visitando la siguiente url: http://your-server-IP/log_report.php, nos aparecería esto:
+
 ![imagen](https://user-images.githubusercontent.com/63236552/152827038-c6841a92-2bc9-4e7a-a1d2-e31b19dcd7c1.png)
 
 
@@ -250,7 +256,12 @@ Una vez configurado un funcionando nuestro contador de visitas en Redis, deberí
 
 El código final de estos tres ficheros lo tenemos subido al repositorio.
 
-Accediendo a la misma url que con Redis,  http://your-server-IP/log_report.php nos debería aparecer el informe de visitas del contador en MySQL.
+Accediendo a la misma url que con Redis,  http://your-server-IP/log_report.php nos debería aparecer el informe de visitas del contador en MySQL. Quedaría así:
+
+![imagen](https://user-images.githubusercontent.com/63236552/152854039-98c5da7b-9d69-4414-9331-083c16e1f232.png)
+
+![imagen](https://user-images.githubusercontent.com/63236552/152854095-c18ce771-7cac-4d35-9542-38cf95d2b359.png)
+
 
 
 
