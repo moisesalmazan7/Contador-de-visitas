@@ -17,8 +17,8 @@
         </tr>
 
         <?php
-            $user = "moises2";
-            $password = "Moi7ad:)99";
+            $user = "usuari0";
+            $password = "contraseÑa";
             $database = "bbdd1";
 
             try {
